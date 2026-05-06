@@ -2,7 +2,7 @@
 
 Personal CV website. Production build.
 
-🌐 **Live site:** [glenn-galicia.com](https://glenn-galicia.com)
+🌐 **Live site:** [glenn-galicia-miller.netlify.app](https://glenn-galicia-miller.netlify.app/)
 📁 **Source repo:** [github.com/GlennGalicia/glenn-galicia-src](https://github.com/GlennGalicia/glenn-galicia-src)
 
 ---
