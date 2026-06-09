@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WPT4XF8X');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="build/css/app.css">
@@ -15,243 +25,259 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPT4XF8X" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="site">
         <aside class="sidebar">
             <nav class="nav">
-                <button class="nav__toggle" id="theme-toggle" aria-label="Toggle dark mode">
-                    <svg class="nav__toggle-icon nav__toggle-icon--moon" xmlns="http://www.w3.org/2000/svg" width="20"
-                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 0 1 11.21 3 7 7 0 1 0 21 12.79z" />
-                    </svg>
-                    <svg class="nav__toggle-icon nav__toggle-icon--sun" xmlns="http://www.w3.org/2000/svg" width="20"
-                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5" />
-                        <path
-                            d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
-                    </svg>
+                <button class="nav__toggle" id="theme-toggle" aria-label="Toggle dark mode" data-gtm-category="ui"
+                    data-gtm-label="theme-toggle">
+                    <i class="ti ti-moon nav__toggle-icon nav__toggle-icon--moon" aria-hidden="true"></i>
+                    <i class="ti ti-sun nav__toggle-icon nav__toggle-icon--sun" aria-hidden="true"></i>
+                </button>
+                <button class="nav__lang" id="lang-toggle" aria-label="Toggle language" data-gtm-category="ui"
+                    data-gtm-label="language-toggle">
+                    <span class="nav__lang-es">ES</span>
+                    <span class="nav__lang-sep">/</span>
+                    <span class="nav__lang-en">EN</span>
                 </button>
             </nav>
             <header class="profile">
                 <div class="profile__avatar">GG</div>
-                <h1 class="profile__name">Glenn Galicia</h1>
-                <small class="profile__role">Software Engineering</small>
+                <div class="profile__info">
+                    <h1 class="profile__name">Glenn Galicia</h1>
+                    <small class="profile__role" data-i18n="profileRole">Software Engineering</small>
+                </div>
             </header>
             <section class="contact">
-                <h2 class="contact__heading">Contact</h2>
-                <div class="contact__item">
-                    <i class="ti ti-mail"></i>
-                    <span>glenn.f.g.a@gmail.com</span>
-                </div>
-
-                <div class="contact__item">
-                    <i class="ti ti-map-pin"></i>
-                    <span>Mexico City</span>
-                </div>
-
-                <div class="contact__item">
-                    <i class="ti ti-phone"></i>
-                    <span>+52 55 2299 1360</span>
+                <h2 class="contact__heading" data-i18n="contactHeading">Contact</h2>
+                <div class="contact__grid">
+                    <div class="contact__item">
+                        <i class="ti ti-mail" aria-hidden="true"></i>
+                        <a href="mailto:glenn.f.g.a@gmail.com">glenn.f.g.a@gmail.com</a>
+                    </div>
+                    <div class="contact__item">
+                        <i class="ti ti-map-pin" aria-hidden="true"></i>
+                        <span>Mexico City</span>
+                    </div>
+                    <div class="contact__item">
+                        <i class="ti ti-phone" aria-hidden="true"></i>
+                        <a href="https://wa.me/5215522991360" target="_blank" rel="noopener noreferrer">+52 55 2299
+                            1360</a>
+                    </div>
                 </div>
             </section>
             <section class="social">
-                <h2 class="social__heading">Social</h2>
+                <h2 class="social__heading" data-i18n="socialHeading">Social</h2>
                 <ul class="social__list">
                     <li class="social__item">
-                        <a href="https://github.com/GlennGalicia" class="social__link" target="_blank">
+                        <a href="https://github.com/GlennGalicia" class="social__link" target="_blank"
+                            rel="noopener noreferrer" data-gtm-category="social" data-gtm-label="github">
                             GitHub
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="https://linkedin.com/in/glenn-galicia" class="social__link" target="_blank">
+                        <a href="https://linkedin.com/in/glenn-galicia" class="social__link" target="_blank"
+                            rel="noopener noreferrer" data-gtm-category="social" data-gtm-label="linkedin">
                             LinkedIn
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="https://www.instagram.com/glenn.f.g.a/" class="social__link" target="_blank">
+                        <a href="https://www.instagram.com/glenn.f.g.a/" class="social__link" target="_blank"
+                            rel="noopener noreferrer" data-gtm-category="social" data-gtm-label="instagram">
                             Instagram
                         </a>
                     </li>
                 </ul>
-
             </section>
             <section class="skills">
-                <h2 class="skills__heading">Skills</h2>
-                <div class="skills__category">
-                    <small class="skills__subheading">FrontEnd</small>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <span class="skills__link">HTML 5</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">CSS 3</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">SASS</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Angular</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills__category">
-                    <small class="skills__subheading">Backend</small>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <span class="skills__link">Node</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Python 3</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills__category">
-                    <small class="skills__subheading">DevOps</small>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <span class="skills__link">CI/CD</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Git</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Git Flow</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Docker</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">SDLC</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills__category">
-                    <small class="skills__subheading">Agile</small>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <span class="skills__link">Scrum</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Kanban</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Jira</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Trello</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills__category">
-                    <small class="skills__subheading">Leadership</small>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <span class="skills__link">Mentorship</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Talent Dev</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Roadmaps</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Team Building</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills__category">
-                    <small class="skills__subheading">Design & AI</small>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <span class="skills__link">Figma</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">Claude</span>
-                        </li>
-                        <li class="skills__item">
-                            <span class="skills__link">GPT - 4</spanç>
-                        </li>
-                    </ul>
+                <h2 class="skills__heading" data-i18n="skillsHeading">Skills</h2>
+                <div class="skills__grid">
+                    <div class="skills__category">
+                        <small class="skills__subheading">FrontEnd</small>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__link">HTML 5</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">CSS 3</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">SASS</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Angular</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__category">
+                        <small class="skills__subheading">Backend</small>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__link">Node</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Python 3</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__category">
+                        <small class="skills__subheading">DevOps</small>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__link">CI/CD</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Git</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Git Flow</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Docker</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">SDLC</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__category">
+                        <small class="skills__subheading" data-i18n="skillsAgile">Agile</small>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__link">Scrum</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Kanban</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Jira</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Trello</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__category">
+                        <small class="skills__subheading" data-i18n="skillsLeadership">Leadership</small>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__link">Mentorship</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Talent Dev</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Roadmaps</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Team Building</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__category">
+                        <small class="skills__subheading" data-i18n="skillsDesignAi">Design & AI</small>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__link">Figma</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">Claude</span>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__link">GPT - 4</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section class="certifications">
-                <h2 class="certifications__heading">Certifications</h2>
-                <div class="certification">
-                    <div class="certification__logo">
-                        <i class="ti ti-award"></i>
+                <h2 class="certifications__heading" data-i18n="certificationsHeading">Certifications</h2>
+                <div class="certifications__grid">
+                    <div class="certification">
+                        <div class="certification__logo">
+                            <i class="ti ti-award" aria-hidden="true"></i>
+                        </div>
+                        <div class="certification__container">
+                            <h3 class="certification__heading">Professional Scrum Master I</h3>
+                            <small class="certification__issuer">Scrum.org</small>
+                            <span class="certification__tag">Agile</span>
+                        </div>
                     </div>
-                    <div class="certification__container">
-                        <h3 class="certification__heading">Professional Scrum Master I</h3>
-                        <small class="certification__issuer">Scrum.org</small>
-                        <span class="certification__tag">Agile</span>
+                    <div class="certification">
+                        <div class="certification__logo">
+                            <i class="ti ti-brand-python" aria-hidden="true"></i>
+                        </div>
+                        <div class="certification__container">
+                            <h3 class="certification__heading">Python Fundamentals</h3>
+                            <small class="certification__issuer">Udemy</small>
+                            <span class="certification__tag">Backend</span>
+                        </div>
                     </div>
-                </div>
-                <div class="certification">
-                    <div class="certification__logo">
-                        <i class="ti ti-brand-python"></i>
-                    </div>
-                    <div class="certification__container">
-                        <h3 class="certification__heading">Python Fundamentals</h3>
-                        <small class="certification__issuer">Udemy</small>
-                        <span class="certification__tag">Backend</span>
-                    </div>
-                </div>
-                <div class="certification">
-                    <div class="certification__logo">
-                        <i class="ti ti-layout"></i>
-                    </div>
-                    <div class="certification__container">
-                        <h3 class="certification__heading">UX & UI Design</h3>
-                        <small class="certification__issuer">Multiplica México</small>
-                        <span class="certification__tag">Design</span>
+                    <div class="certification">
+                        <div class="certification__logo">
+                            <i class="ti ti-layout" aria-hidden="true"></i>
+                        </div>
+                        <div class="certification__container">
+                            <h3 class="certification__heading">UX & UI Design</h3>
+                            <small class="certification__issuer">Multiplica México</small>
+                            <span class="certification__tag">Design</span>
+                        </div>
                     </div>
                 </div>
             </section>
-
         </aside>
         <main class="main-content">
             <section class="about" id="about">
-                <h2 class="about__heading">About Me</h2>
-                <p class="about__text">
+                <h2 class="about__heading" data-i18n="aboutHeading">About Me</h2>
+                <p class="about__text" data-i18n="aboutText1">
                     Software Engineer with 8+ years of experience in software development and technical leadership,
                     delivering high-impact digital solutions in large-scale corporate environments.
                 </p>
-                <p class="about__text">
+                <p class="about__text" data-i18n="aboutText2">
                     At BBVA, I've led cross-functional teams across Mexico, Colombia, Peru, and Venezuela — managing the
                     full SDLC, coordinating regional projects, and driving continuous improvement in mobile and digital
                     banking platforms.
                 </p>
-                <p class="about__text">
+                <p class="about__text" data-i18n="aboutText3">
                     I'm passionate about building high-performing teams, aligning technology with business goals, and
                     making data-driven decisions.
                 </p>
             </section>
             <section class="experience">
-                <h2 class="experience__heading">Experience</h2>
+                <h2 class="experience__heading" data-i18n="experienceHeading">Experience</h2>
                 <div class="experience__timeline">
                     <div class="job">
                         <header class="job__header">
-                            <h3 class="job__title">Software Manager II</h3>
-                            <time datetime="2020/2025" class="job__period">Sep 23 - Ago 25</time>
+                            <h3 class="job__title" data-i18n="job1Title">Software Manager II</h3>
+                            <time datetime="2023-09/2025-08" class="job__period" data-i18n="job1Period">Sep 23 - Ago
+                                25</time>
                         </header>
-                        <p class="job__company">BBVA Technology en América</p>
+                        <p class="job__company" data-i18n="job1Company">BBVA Technology en América</p>
+                        <p class="job__description" data-i18n="job1Description">
+                            Led cross-functional teams delivering global frontend
+                            features using HTML, CSS, JavaScript and Cells framework across Mexico, Colombia, Peru,
+                            and Venezuela.
+                        </p>
                         <ul class="job__responsibilities">
-                            <p class="job__description">
-                                Led cross-functional teams delivering global frontend
-                                features using HTML, CSS, JavaScript and Cells framework across Mexico, Colombia, Peru,
-                                and Venezuela.
-                            </p>
-                            <li class="job__responsability"><strong>Venezuela App</strong> — Built core dashboard,
+                            <li class="job__responsability" data-i18n-html="job1Resp1"><strong>Venezuela App</strong> —
+                                Built
+                                core dashboard,
                                 notifications, and
                                 account/card modules; onboarded a new regional team from scratch.
                             </li>
 
-                            <li class="job__responsability"><strong>App Maintenance</strong> — Resolved 150+ monthly
+                            <li class="job__responsability" data-i18n-html="job1Resp2"><strong>App Maintenance</strong>
+                                —
+                                Resolved 150+ monthly
                                 bugs; migrated
                                 Polymer → Lit Element and adopted new corporate UI system.
                             </li>
-                            <li class="job__responsability"><strong>Securities Journey</strong> — Delivered password
+                            <li class="job__responsability" data-i18n-html="job1Resp3"><strong>Securities
+                                    Journey</strong> —
+                                Delivered password
                                 recovery and digital
                                 token enrollment for Colombia & Peru via Scrum, on time across multiple geographies.
                             </li>
@@ -259,24 +285,28 @@
                     </div>
                     <div class="job">
                         <header class="job__header">
-                            <h3 class="job__title">Software Expert Engineer II</h3>
-                            <time datetime="2020/2025" class="job__period">Jun 2023 – Sep 2023</time>
+                            <h3 class="job__title" data-i18n="job2Title">Software Expert Engineer II</h3>
+                            <time datetime="2023-06/2023-09" class="job__period" data-i18n="job2Period">Jun 23 – Sep
+                                23</time>
                         </header>
-                        <p class="job__company">BBVA México</p>
+                        <p class="job__company" data-i18n="job2Company">BBVA México</p>
                         <ul class="job__responsibilities">
-                            <li class="job__responsability">Developed push notification system to authenticate BBVA
+                            <li class="job__responsability" data-i18n="job2Resp1">Developed push notification system to
+                                authenticate BBVA
                                 calls to clients, reducing fraud risk. Implemented 6 reactive notifications and managed
                                 deep link integration with iOS/Android widgets.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <header class="job__header">
-                            <h3 class="job__title">Software Engineer I</h3>
-                            <time datetime="2020/2025" class="job__period">Sep 2022 – Jun 23</time>
+                            <h3 class="job__title" data-i18n="job3Title">Software Engineer I</h3>
+                            <time datetime="2022-09/2023-06" class="job__period" data-i18n="job3Period">Sep 22 – Jun
+                                23</time>
                         </header>
-                        <p class="job__company">BBVA México</p>
+                        <p class="job__company" data-i18n="job3Company">BBVA México</p>
                         <ul class="job__responsibilities">
-                            <li class="job__responsability">Designed a simplified dashboard widget for customers aged
+                            <li class="job__responsability" data-i18n="job3Resp1">Designed a simplified dashboard widget
+                                for customers aged
                                 70+, tailored to basic banking operations. Adapted and integrated the widget into the
                                 Mexican market.
                             </li>
@@ -284,12 +314,14 @@
                     </div>
                     <div class="job">
                         <header class="job__header">
-                            <h3 class="job__title">Software Engineer I</h3>
-                            <time datetime="2020/2025" class="job__period">Feb 2020 – Sep 2022</time>
+                            <h3 class="job__title" data-i18n="job4Title">Software Engineer I</h3>
+                            <time datetime="2020-02/2022-09" class="job__period" data-i18n="job4Period">Feb 20 – Sep
+                                22</time>
                         </header>
-                        <p class="job__company">BBVA México</p>
+                        <p class="job__company" data-i18n="job4Company">BBVA México</p>
                         <ul class="job__responsibilities">
-                            <li class="job__responsability">Enabled self-service data updates for BBVA Mexico clients,
+                            <li class="job__responsability" data-i18n="job4Resp1">Enabled self-service data updates for
+                                BBVA Mexico clients,
                                 reducing branch traffic. Delivered 8+ global APIs, 4 host transactions, and 1 CICs
                                 Connector. Coached Scrum teams on API release management and global feature integration.
                             </li>
@@ -297,12 +329,14 @@
                     </div>
                     <div class="job">
                         <header class="job__header">
-                            <h3 class="job__title">Software Engineer I</h3>
-                            <time datetime="2020/2025" class="job__period">Oct 2019 – Ene 2020</time>
+                            <h3 class="job__title" data-i18n="job5Title">Software Engineer I</h3>
+                            <time datetime="2019-10/2020-01" class="job__period" data-i18n="job5Period">Oct 19 – Ene
+                                20</time>
                         </header>
-                        <p class="job__company">BBVA México</p>
+                        <p class="job__company" data-i18n="job5Company">BBVA México</p>
                         <ul class="job__responsibilities">
-                            <li class="job__responsability">Integrated a financial aggregator giving clients a unified
+                            <li class="job__responsability" data-i18n="job5Resp1">Integrated a financial aggregator
+                                giving clients a unified
                                 view of accounts, credits, and investments across institutions. Deployed global Oracle
                                 APIs and APX transactions for the Mexican market.
                             </li>
@@ -311,30 +345,100 @@
                 </div>
             </section>
             <section class="projects" id="projects">
-                <h2 class="projects__heading">Portfolio & Projects</h2>
+                <h2 class="projects__heading" data-i18n="projectsHeading">Portfolio & Projects</h2>
                 <div class="projects__grid">
-                    <div class="project-card">
+                    <a href="https://cg-preview.netlify.app/" class="project-card" target="_blank"
+                        rel="noopener noreferrer" data-gtm-category="project" data-gtm-label="gases-y-soldaduras-cg">
                         <header class="project-card__header">
-                            <h3 class="project-card__title">Gases y Soldaduras CG</h3>
-                            <span class="project-card__badge">Coming Soon</span>
-                            <!--<a href="#" class="project-card__link">View →</a>-->
+                            <h3 class="project-card__title" data-i18n="project1Title">Gases y Soldaduras CG</h3>
+                            <span class="project-card__badge" data-i18n="project1Badge">Customer</span>
                         </header>
-                        <p class="project-card__description">Distribuidores especializados en gases industriales,
-                            soldadura y seguridad. Calidad garantizada con entrega en todo el Estado de México y CDMX.
+                        <p class="project-card__description" data-i18n="project1Desc">Specialized distributors of
+                            industrial gases, welding and safety equipment. Guaranteed quality with delivery throughout
+                            Estado de México and CDMX.</p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">HTML5</span>
+                            <span class="project-card__tag">CSS3</span>
+                            <span class="project-card__tag">SASS</span>
+                            <span class="project-card__tag">JavaScript</span>
+                            <span class="project-card__tag">BEM</span>
+                        </div>
+                    </a>
+                    <a href="https://cafeteria-miller.netlify.app/" class="project-card" target="_blank"
+                        rel="noopener noreferrer" data-gtm-category="project" data-gtm-label="la-cafeteria">
+                        <header class="project-card__header">
+                            <h3 class="project-card__title" data-i18n="project2Title">La Cafetería</h3>
+                            <span class="project-card__badge project-card__badge--personal"
+                                data-i18n="project2Badge">Personal</span>
+                        </header>
+                        <p class="project-card__description" data-i18n="project2Desc">A responsive coffee shop website
+                            built as a front-end learning project, using a modern workflow with Sass and Gulp for asset
+                            automation.
                         </p>
                         <div class="project-card__tags">
-                            <a href="#" class="project-card__tag">HTML5</a>
-                            <a href="#" class="project-card__tag">CSS3</a>
-                            <a href="#" class="project-card__tag">SASS</a>
-                            <a href="#" class="project-card__tag">JavaScript</a>
-                            <a href="#" class="project-card__tag">BEM</a>
+                            <span class="project-card__tag">HTML5</span>
+                            <span class="project-card__tag">CSS3</span>
+                            <span class="project-card__tag">SASS</span>
+                            <span class="project-card__tag">BEM</span>
                         </div>
-
-                    </div>
+                    </a>
+                    <a href="https://delivery-app-miller.netlify.app/" class="project-card" target="_blank"
+                        rel="noopener noreferrer" data-gtm-category="project" data-gtm-label="delivery-app">
+                        <header class="project-card__header">
+                            <h3 class="project-card__title" data-i18n="project3Title">Delivery App</h3>
+                            <span class="project-card__badge project-card__badge--personal"
+                                data-i18n="project3Badge">Personal</span>
+                        </header>
+                        <p class="project-card__description" data-i18n="project3Desc">A responsive food delivery landing
+                            page built as a front-end learning project, using a modern workflow with Sass and Gulp for
+                            asset automation.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">HTML5</span>
+                            <span class="project-card__tag">CSS3</span>
+                            <span class="project-card__tag">SASS</span>
+                            <span class="project-card__tag">BEM</span>
+                        </div>
+                    </a>
+                    <a href="https://architecture-miller.netlify.app/" class="project-card" target="_blank"
+                        rel="noopener noreferrer" data-gtm-category="project" data-gtm-label="arquitectura-bosque">
+                        <header class="project-card__header">
+                            <h3 class="project-card__title" data-i18n="project4Title">Arquitectura Bosque</h3>
+                            <span class="project-card__badge project-card__badge--personal"
+                                data-i18n="project4Badge">Personal</span>
+                        </header>
+                        <p class="project-card__description" data-i18n="project4Desc">A responsive architecture store
+                            website built as a learning project.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">HTML5</span>
+                            <span class="project-card__tag">CSS3</span>
+                            <span class="project-card__tag">SASS</span>
+                            <span class="project-card__tag">BEM</span>
+                        </div>
+                    </a>
+                    <a href="https://techpro-miller.netlify.app/" class="project-card" target="_blank"
+                        rel="noopener noreferrer" data-gtm-category="project" data-gtm-label="tech-pro">
+                        <header class="project-card__header">
+                            <h3 class="project-card__title" data-i18n="project5Title">Tech Pro</h3>
+                            <span class="project-card__badge project-card__badge--personal"
+                                data-i18n="project5Badge">Personal</span>
+                        </header>
+                        <p class="project-card__description" data-i18n="project5Desc">A responsive TechPro store website
+                            built as a learning project.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">HTML5</span>
+                            <span class="project-card__tag">CSS3</span>
+                            <span class="project-card__tag">SASS</span>
+                            <span class="project-card__tag">BEM</span>
+                        </div>
+                    </a>
                 </div>
             </section>
         </main>
     </div>
+    <script src="build/js/languages.js"></script>
     <script src="build/js/app.js"></script>
 </body>
 
