@@ -31,6 +31,14 @@ const translations = {
         // ── Experience ────────────────────────────────
         experienceHeading: "Experiencia",
 
+        // Job 0
+        job0Title: "Auditor TI",
+        job0Period: "Jul 26 – Actual",
+        job0Company: "HLS Group - Aeroméxico",
+        job0Resp1: "Revisar la seguridad de la información y la infraestructura en la nube.",
+        job0Resp2: "Evaluar riesgos tecnológicos bajo estándares internacionales como ISO 27001, PCI DSS y COBIT.",
+        job0Resp3: "Proponer planes de acción para mitigar vulnerabilidades en plataformas críticas.",
+
         // Job 1
         job1Title: "Software Manager II",
         job1Period: "Sep 23 - Ago 25",
@@ -86,6 +94,14 @@ const translations = {
         project5Title: "Tech Pro",
         project5Badge: "Personal",
         project5Desc: "Un sitio web responsivo de la tienda TechPro creado como un proyecto de aprendizaje.",
+
+        project6Title: "Podcast App",
+        project6Badge: "Personal",
+        project6Desc: "Una página de inicio responsiva para una plataforma de publicación de podcasts, creada como un proyecto de aprendizaje front-end enfocado en técnicas semánticas de HTML y maquetación CSS.",
+
+        project7Title: "Airbnb WebSite",
+        project7Badge: "Personal",
+        project7Desc: "Un clon front-end de la página de inicio de Airbnb, creado como un proyecto de aprendizaje de arquitectura HTML5 semántico y Sass.",
     },
 
     en: {
@@ -119,6 +135,14 @@ const translations = {
 
         // ── Experience ────────────────────────────────
         experienceHeading: "Experience",
+
+        // Job 0
+        job0Title: "IT Auditor",
+        job0Period: "Jul 26 – Actual",
+        job0Company: "HLS Group - Aeromexico",
+        job0Resp1: "Review information security and cloud infrastructure.",
+        job0Resp2: "Evaluate technological risks according to international standards such as ISO 27001, PCI DSS, and COBIT.",
+        job0Resp3: "Propose action plans to mitigate vulnerabilities in critical platforms.",
 
         // Job 1
         job1Title: "Software Manager II",
@@ -175,5 +199,13 @@ const translations = {
         project5Title: "Tech Pro",
         project5Badge: "Personal",
         project5Desc: "A responsive TechPro store website built as a learning project.",
+
+        project6Title: "Podcast App",
+        project6Badge: "Personal",
+        project6Desc: "A responsive landing page for a podcast publishing platform, built as a front-end learning project focused on semantic HTML and CSS layout techniques.",
+
+        project7Title: "Airbnb WebSite",
+        project7Badge: "Personal",
+        project7Desc: "A front-end clone of Airbnb's landing page, built as a semantic HTML5 and Sass architecture learning project.",
     }
 };
